@@ -18,7 +18,7 @@ h1,
 h2,
 h3 {
   font-family: var(--ff-heading);
-  font-weight: var(--fw-900);
+  font-weight: var(--fw-700);
   line-height: 1.1;
 }
 
@@ -39,7 +39,7 @@ section,
    and add margin to the top for proper
    spacing */
 
-.flow > *:where(:not(:first-child)) {
+.flow>*:where(:not(:first-child)) {
   margin-top: var(--flow-spacer, 1em);
 }
 
@@ -123,7 +123,7 @@ body {
   flex-direction: column;
 }
 
-body > main {
+body>main {
   flex: 1 0 auto;
 }
 
@@ -144,7 +144,7 @@ header,
   Homepage
   /////////////////////// */
 
-.hero > div {
+.hero>div {
   display: grid;
   grid-auto-flow: row;
   grid-auto-columns: 1fr;
@@ -159,13 +159,13 @@ header,
 }
 
 @media (min-width: 45em) {
-  .hero > div {
+  .hero>div {
     grid-auto-flow: column;
   }
 }
 
 .featured-articles {
-  background-color: var(--clr-primary-100);
+  background-color: var(--clr-neutral-100);
 }
 
 .articles__list {

@@ -1,4 +1,7 @@
 /* variables */
+
+$raleway-font-path: 'fonts/';
+
 :root {
   --fs-300: 0.9375rem;
   --fs-400: 1.0625rem;
@@ -6,24 +9,24 @@
   --fs-600: 1.875rem;
   --fs-700: 2rem;
 
-  --ff-body: "Roboto", sans-serif;
-  --ff-heading: "Poppins", serif;
+  --ff-body: "Raleway", sans-serif;
+  --ff-heading: "Raleway", sans-serif;
 
   --fw-400: 400;
   --fw-700: 700;
   --fw-900: 900;
 
-  --clr-primary-100: hsl(234, 100%, 94%);
-  --clr-primary-200: hsl(234, 100%, 85%);
-  --clr-primary-300: hsla(234, 100%, 39%, 1);
-  --clr-primary-400: hsla(234, 100%, 26%, 1);
-  --clr-primary-500: hsla(234, 100%, 16%, 1);
+  --clr-primary-100: hsl(230, 16%, 24%);
+  --clr-primary-200: hsl(205, 2%, 75%);
+  --clr-primary-300: hsl(0, 0%, 100%);
+  --clr-primary-400: hsl(14, 78%, 58%);
+  --clr-primary-500: hsl(219, 20%, 45%);
 
-  --clr-neutral-100: hsla(0, 0%, 100%, 1);
-  --clr-neutral-300: hsla(0, 0%, 50%, 1);
-  --clr-neutral-400: hsla(0, 0%, 40%, 1);
-  --clr-neutral-500: hsla(0, 0%, 60%, 1);
-  --clr-neutral-900: hsla(0, 0%, 10%, 1);
+  --clr-neutral-100: hsl(229, 17%, 22%);
+  --clr-neutral-300: hsl(206, 1%, 71%);
+  --clr-neutral-400: hsl(206, 8%, 61%);
+  --clr-neutral-500: hsl(220, 20%, 41%);
+  --clr-neutral-900: hsl(227, 28%, 38%);
 }
 
 @media (min-width: 35em) {
